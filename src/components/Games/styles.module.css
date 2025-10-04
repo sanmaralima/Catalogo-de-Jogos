@@ -1,0 +1,104 @@
+/*.container{
+    display: flex;
+    background-color: #d7e1e7;
+    padding: 45px 45px;
+    border-radius: 25px;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.author{
+    text-align: right;
+    font-size: 20px;
+}
+
+.poster{
+    border: 8px solid black;
+    box-shadow: 0 24px 32px -16px rgba(0, 0, 0, 0.4)
+}
+
+.button{
+    background-color: #121212;
+    color: #fff;
+    border-radius: .5rem;
+    font-size: 20px;
+    font-family: Tahoma;
+    cursor: pointer;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.title{
+    font-size: 2.75rem;
+    color: rgba(80, 80, 80, 1);
+}
+.description{
+    font-size: 24px;
+    line-height: 2;
+    margin-top: 2rem;
+    text-align: justify;
+}
+*/
+
+/* src/components/Games/styles.module.css */
+
+.gamesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #2a3a30; /* Cor de fundo do site */
+  padding: 3rem;
+  color: #fff;
+}
+
+.mainTitle {
+  width: 100%; /* Ocupa a largura total para ficar acima dos cards */
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 180px; /* Largura de cada card */
+  border-radius: 8px;
+  background-color: #2b3b33; /* Fundo de cada card */
+  padding: 1rem;
+}
+
+.poster {
+  width: 100%;
+  height: auto;
+  border: 8px solid black;
+  box-shadow: 0 24px 32px -16px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem;
+  color: #fff;
+}
+
+.description {
+  font-size: 0.9rem;
+  line-height: 1.2;
+  margin-top: 0.5rem;
+  color: #ccc;
+  flex-grow: 1; /* Para que todos os cards tenham a mesma altura */
+}
+
+.button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
